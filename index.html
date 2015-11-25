@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Automata - Conway's Game of Life</title>
+	<link rel="stylesheet" type="text/css" href="http://bootswatch.com/cyborg/bootstrap.min.css">	
+	<link rel="stylesheet" type="text/css" href="main.css">
+</head>
+<body>
+	<!-- Start of navbar -->
+	<nav class="navbar navbar-default" role="navigation">
+		<div class="container">
+			<!-- Brand and toggle get grouped for better mobile display -->
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+					<span class="sr-only">Toggle navigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				<a class="navbar-brand" href="#">Conway's Game of life</a>
+			</div>
+			<!-- Collect the nav links, forms, and other content for toggling -->
+			<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+				<ul class="nav navbar-nav">
+					<li class="active"><a href="https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life#Rules" target="_blank">Simulation Rules</a></li>
+					
+					<li id="dir"><i>Choose wisely and press the spacebar</i></li>
+				</ul>
+				
+				<ul class="nav navbar-nav navbar-right">
+					<li><a href="http://www.math.cornell.edu/~lipa/mec/lesson6.html" target="_blank">Chaos and Fractals</a></li>
+					<li><a href="https://www.youtube.com/watch?v=C2vgICfQawE" target="_blank">Great YouTube video</a></li>
+				</ul>
+			</div><!-- /.navbar-collapse -->
+		</div><!-- /.container-fluid -->
+	</nav>
+	<!-- End of navbar  will have to make the bar dynamic -->
+	<progress id="bar" value="0.1" max="0.4">up to 40%</progress>
+	<canvas id="game" width="800" height="600"></canvas>
+
+
+	<script type="text/javascript" src="main.js"></script>
+</body>
+</html>

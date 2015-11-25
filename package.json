@@ -1,0 +1,25 @@
+{
+  "name": "automatasimulation",
+  "version": "1.0.0",
+  "description": "conway game of life",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "automataSimulation"
+  },
+  "keywords": [
+    "conway",
+    "simulation",
+    "patterns",
+    "fractals",
+    "chaos"
+  ],
+  "author": "mohamed",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^3.9.0"
+  }
+}
